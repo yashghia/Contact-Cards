@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.homework2.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/create"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/editFunction"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="onButtonClick"
+        android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/delete"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/display"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/finish"
+        android:onClick="onButtonClick"/>
+
+</LinearLayout>
+
+</RelativeLayout>
